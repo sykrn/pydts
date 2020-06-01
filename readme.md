@@ -1,3 +1,7 @@
-# Test hompage
+# List project untuk py DTS
 
-lorem
+# untuk liat score, klik link berikut
+0. [pilot](pilot_project.md)
+1. [wait](#)
+
+
