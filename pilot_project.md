@@ -24,10 +24,7 @@ function onClick() {
     else{
         var fscore = 'Final Score: ' + obj[email]["score"]+"\n\n";
         var itemout = 'Items test cases: \n';
-        var o = obj[email]["out"];
-        var zip = o.map(function(e, i) {
-              return [e, obj[email]["scores"][i]];
-         });    
+        var o = obj[email]["out"]; 
 
         for(i=0;i<o.length;i++){
             itemout += o[i]+"\nscore: "+obj[email]["scores"][i]+"\n\n";
