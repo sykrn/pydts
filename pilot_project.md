@@ -17,7 +17,7 @@ function onClick() {
     var x = document.getElementById("result");
     var email = document.getElementById("email").value;
     var notexist = typeof obj[email]=== "undefined";    
-    x.innerHTML=obj[email]["out"][0];
+    x.innerHTML=obj[email]["out"];
     x.style.display = "block";      
     }
 </script>
