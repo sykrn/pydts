@@ -2,7 +2,7 @@
 
 # Pilot project testing
 
-## Lihat score anda dengaan memasukkan email
+## Lihat score anda dengan memasukkan email
 <input type="email" id="email" name="emails" placeholder="email netacad">
 <button onclick="onClick()">Click Me</button>
 <pre>
@@ -14,9 +14,10 @@
 
 <script>
 function onClick() {
+    var x = document.getElementById("result");
     var email = document.getElementById("email").value;
     var notexist = typeof obj[email]=== "undefined";    
-    document.getElementById("result").innerHTML=obj[email]["out"][0];
+    x.innerHTML=obj[email]["out"][0];
     x.style.display = "block";      
     }
 </script>
