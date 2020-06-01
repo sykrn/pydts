@@ -29,7 +29,9 @@ function onClick() {
         var o = obj[email]["out"]; 
 
         for(i=0;i<o.length;i++){
-            itemout += o[i]+">>>>>Item score: "+obj[email]["scores"][i]+"\n\n";
+            ox = o[i].replace("<", "type ");
+            ox = ox.replace(">", "");
+            itemout += ox+">>>>>Item score: "+obj[email]["scores"][i]+"\n\n";
         }
     
         x.innerHTML=fscore+itemout;           
