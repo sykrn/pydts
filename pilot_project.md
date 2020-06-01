@@ -7,6 +7,7 @@
 <button onclick="onClick()">Click Me</button>
 <pre>
 <div id="result" style="display:none;">
+
 </div>
 </pre>
 
@@ -14,11 +15,26 @@
 
 <script>
 function onClick() {
-    var x = document.getElementById("result");
+    var x = document.getElementById("result");    
     var email = document.getElementById("email").value;
-    var notexist = typeof obj[email]=== "undefined";    
-    x.innerHTML=obj[email]["out"];
-    x.style.display = "block";      
+    var notexist = typeof obj[email]=== "undefined";
+    if (notexist){
+       x.innerHTML='Email ID Tidak ditemukan';
+    } 
+    else{
+        var fscore = 'Final Score: ' + obj[email]["score"]+"\n\n";
+        var itemout = 'Items test cases: \n';
+        var zip = obj[email]["out"].map(function(e, i) {
+              return [e, obj[email]["scores"][i]];
+         });
+    
+        for(i in zip){
+            itemout += i[0]+'score: '+i[0]+'\n\n';
+        }
+    
+        x.innerHTML=fscore+itemout;           
     }
+    x.style.display = "block"; 
+}
 </script>
 
