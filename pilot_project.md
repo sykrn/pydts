@@ -29,8 +29,8 @@ function onClick() {
         var o = obj[email]["out"]; 
 
         for(i=0;i<o.length;i++){
-            ox = o[i].replace("<", "type ");
-            ox = ox.replace(">", "");
+            ox = o[i].split("<").join("type ");
+            ox = ox.split(">").join("");
             itemout += ox+">>>>>Item score: "+obj[email]["scores"][i]+"\n\n";
         }
     
