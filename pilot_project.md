@@ -27,10 +27,10 @@ function onClick() {
         var o = obj[email]["out"];
         var zip = o.map(function(e, i) {
               return [e, obj[email]["scores"][i]];
-         });
-    
-        for(i in zip){
-            itemout += i[0]+'\nscore: '+i[1]+'\n\n';
+         });    
+
+        for(i=0;i<o.length;i++){
+            itemout += o[i]+"\nscore: "+obj[email]["scores"][i]+"\n\n";
         }
     
         x.innerHTML=fscore+itemout;           
