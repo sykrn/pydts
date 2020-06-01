@@ -7,7 +7,7 @@
 <button onclick="onClick()">Click Me</button>
 <pre>
 <code>
-<div id="result" style="display:none;">
+<div id="result">
 
 </div>
 </code>
@@ -25,7 +25,7 @@ function onClick() {
     } 
     else{
         var fscore = 'Final Score: ' + obj[email]["score"]+"\n\n";
-        var itemout = 'Items test cases: \n======================================\n';
+        var itemout = 'Items test cases: \nformat result:[scorer,expected value(s),expected dtype,your value(s),your dtype]\n======================================\n';
         var o = obj[email]["out"]; 
 
         for(i=0;i<o.length;i++){
