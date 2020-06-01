@@ -3,6 +3,8 @@
 # Pilot project testing
 
 ## Lihat score anda dengan memasukkan email
+contoh: 'abcd@gmail.com'
+
 <input type="email" id="email" name="emails" placeholder="email netacad">
 <button onclick="onClick()">Click Me</button>
 <pre>
