@@ -24,12 +24,12 @@ function onClick() {
     else{
         var fscore = 'Final Score: ' + obj[email]["score"]+"\n\n";
         var itemout = 'Items test cases: \n';
-        var zip = obj[email]["out"].map(function(e, i) {
+        var zip = (obj[email]["out"]).map(function(e, i) {
               return [e, obj[email]["scores"][i]];
          });
     
         for(i in zip){
-            itemout += i[0]+'score: '+i[0]+'\n\n';
+            itemout += i[0]+'\nscore: '+i[1]+'\n\n';
         }
     
         x.innerHTML=fscore+itemout;           
