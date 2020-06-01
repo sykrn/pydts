@@ -26,7 +26,7 @@ function onClick() {
        x.innerHTML='Email ID Tidak ditemukan';
     } 
     else{
-        var fscore = 'Final Score (${email}): ' + obj[email]["score"]+"\n\n";
+        var fscore = 'Email: '+email+'\nFinal Score : ' + obj[email]["score"]+"\n\n";
         var itemout = 'Items test cases: \nformat result:[scorer,expected value(s),expected dtype,your value(s),your dtype]\n======================================\n';
         var o = obj[email]["out"]; 
 
