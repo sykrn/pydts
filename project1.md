@@ -1,6 +1,6 @@
 
 
-# Pilot project testing
+# Project 1 result
 
 ### Lihat score anda dengan memasukkan email (data: 15:30pm 6/6/2020)
 contoh: 'abcd@gmail.com'
