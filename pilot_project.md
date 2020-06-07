@@ -15,9 +15,10 @@ contoh: 'abcd@gmail.com'
 </code>
 </pre>
 
-<script type="text/javascript" src="p1_pilot.json"></script>
+
 
 <script>
+import obj from './p1_pilot.json';
 function onClick() {
     var x = document.getElementById("result");    
     var email = document.getElementById("email").value;
