@@ -2,7 +2,7 @@
 
 # Project 1 result
 
-### Lihat score anda dengan memasukkan email (data: 14.50pm WIB 7/6/2020)
+### Lihat score anda dengan memasukkan email -- Final (18.00 wib 8/6/2020)
 contoh: 'abcd@gmail.com'
 
 <input type="email" id="email" name="emails" placeholder="email netacad">
@@ -23,10 +23,10 @@ function onClick() {
     var email = document.getElementById("email").value;
     var notexist = typeof obj[email]=== "undefined";
     if (notexist){
-       x.innerHTML='Email ID Tidak ditemukan atau kode anda mengandung error!!';
+       x.innerHTML='Email ID Tidak ditemukan atau kode anda mengandung error!!\n\nList error:\n'+obj["error"];
     } 
     else{
-        var fscore = 'Email: '+email+'\nFinal Score : ' + obj[email]["score"]+"\n\n";
+        var fscore = 'Email: '+email+' -- priority: '+obj[email]["priority"]+'\nFinal Score : ' + obj[email]["score"]+"\n\n";
         var itemout = 'Items test cases: \nformat result:[scorer,expected value(s),expected dtype,your value(s),your dtype]\n======================================\n';
         var o = obj[email]["out"]; 
 
