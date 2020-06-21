@@ -2,7 +2,7 @@
 
 # Project 2 result
 
-### Lihat score anda dengan memasukkan email -- Data (11.00 wib 18/6/2020)
+### Lihat score anda dengan memasukkan email -- Data (06.30 wib 21/6/2020)
 contoh: 'abcd@gmail.com'
 
 <input type="email" id="email" name="emails" placeholder="email netacad">
