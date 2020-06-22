@@ -7,7 +7,7 @@ contoh: 'abcd@gmail.com'
 
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha1.min.js"></script>
-<script type="text/javascript" src="p2.json"></script>
+<script type="text/javascript" src="p1.json"></script>
 
 <input type="email" id="email" name="emails" placeholder="email netacad">
 <button onclick="onClick()">Cari</button>
