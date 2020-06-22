@@ -5,6 +5,9 @@
 ### Lihat score anda dengan memasukkan email -- Final/Closed (12.00 wib 22/6/2020)
 contoh: 'abcd@gmail.com'
 
+<script type="text/javascript" src="util.js"></script>
+<script type="text/javascript" src="p2.json"></script>
+
 <input type="email" id="email" name="emails" placeholder="email netacad">
 <button onclick="onClick()">Cari</button>
 <pre>
@@ -14,8 +17,7 @@ contoh: 'abcd@gmail.com'
 </div>
 </code>
 </pre>
-<script type="text/javascript" src="util.js"></script>
-<script type="text/javascript" src="p2.json"></script>
+
 
 <script>
 function onClick() {
