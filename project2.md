@@ -24,7 +24,7 @@ function onClick() {
     var ehash = stringToHash(email);    
     var notexist = typeof obj[ehash]=== "undefined";
     if (notexist){
-       ser = obj["error"].split("\n").sort().join("\n");
+       ser = obj[stringToHash("error")].split("\n").sort().join("\n");
        x.innerHTML='Email ID Tidak ditemukan atau kode anda mengandung error!!\n\nList error:\n'+ser;
     } 
     else{
