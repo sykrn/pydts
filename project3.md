@@ -2,7 +2,7 @@
 
 # Project 3 result
 
-### Lihat score anda dengan memasukkan email -- Data (05.30 wib 25/6/2020)
+### Lihat score anda dengan memasukkan email -- Data (18.45 wib 27/6/2020)
 contoh: 'abcd@gmail.com'
 
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
