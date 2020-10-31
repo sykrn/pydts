@@ -54,13 +54,13 @@ Jawaban yang dianggap benar oleh system (Grader). Fokus pada nilai kesamaan outp
 
 contoh script `latihansba.py` yang **BENAR**:
 
-```
+```python
 d = float(input())
 L = 3.1416 * d**2 / 4
 print(L)
 ```
 atau 
-```
+```python
 d = input()
 d = float(d)
 L = 3.1416 * d**2 / 4
@@ -71,7 +71,7 @@ Anda boleh untuk melakukan apapun sesuai logika anda **KECUALI** baris input/out
 
 contoh script `latihansba.py` yang **SALAH**:
 
-```
+```python
 d = float(input())
 L = 3.1416 * d**2 / 4
 print('Luas lingkaran adalah ',L)
