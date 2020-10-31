@@ -77,4 +77,4 @@ L = 3.1416 * d**2 / 4
 print('Luas lingkaran adalah ',L)
 ```
 
-Hal ini akan disalahkan oleh sistem grader. karna output yang di keluarkan dianggap berbeda meski secara logika hal tersebut adalah benar. 
+Hal ini akan disalahkan oleh sistem grader, karena output yang dikeluarkan dianggap berbeda meski secara logika hal tersebut adalah benar. 
