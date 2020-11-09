@@ -2,7 +2,7 @@
 Note: Jika sript anda tidak berada di list berikut tapi nilai anda 0, maka kemungkinannya adalah terjadi kesalahan logika.
 
 
-'''
+```
 _adrian_syah_abidin13372178_question_47141970_90798053_sba2.py: invalid literal for int() with base 10: '2 9 4 3'
 _afal_imawan13372343_question_47141969_90816261_sba1.py: invalid syntax (<string>, line 1)
 _afal_imawan13372343_question_47141970_90816264_sba2.py: invalid syntax (<string>, line 1)
@@ -109,4 +109,4 @@ t_christian_joseph10817470_question_47141970_90802272_sba2.py: invalid literal f
 tsaqif_daffa_haj9208681_question_47141970_90796505_sba2.py: invalid literal for int() with base 10: '2 9 4 3'
 wicaksana_adhetya_kurnia10816657_question_47141987_90808576_sba3.py: unexpected indent (<string>, line 1)
 
-'''
+```
